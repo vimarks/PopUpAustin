@@ -1,0 +1,164 @@
+body {
+  background-color: #08210b;
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-grey.png");
+  margin: 0;
+}
+.navbar {
+  background-image: linear-gradient(to right, forestgreen, #08210b);
+  display: table;
+  width: 104%;
+  height: 120px;
+  border: solid;
+  border-right-style: none;
+  border-left-style: none;
+}
+#title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#navlink {
+  color: antiquewhite;
+  font-size: 15px;
+  text-decoration: none;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+.mapboxgl-popup-content {
+  background: rgba(0, 0, 0, 0.6);
+  width: 20vh;
+}
+.description {
+  color: #ffffff;
+}
+.mapboxgl-popup {
+  max-width: 400px;
+}
+
+.popupPic {
+  width: 20vh;
+  hight: 20vh;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: rgba(0, 0, 0, 0.6) !important;
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.behind {
+  margin-top: -63%;
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: ivory;
+  position: relative;
+  z-index: -18;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 180%;
+  margin-left: -13%;
+}
+
+.stats {
+  margin-left: 66%;
+  list-style: none;
+}
+.slideshow-container {
+  max-width: 59%;
+  position: relative;
+  margin-left: 65px;
+  margin-top: 5%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 35% !important;
+  width: auto;
+  padding: 9px !important;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  color: black;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.slide {
+  border: solid;
+  width: 100%;
+  height: auto;
+}
+ {
+  box-sizing: border-box;
+}
+.mySlides {
+  width: 100%;
+  display: none;
+}
+.blurb {
+  background-color: white;
+  color: black;
+  margin-top: -1.9%;
+  text-align: left;
+  margin-left: 102%;
+  width: 52%;
+  border: solid black;
+  padding: 7px;
+}
