@@ -7,12 +7,13 @@ let title = document.getElementById("title");
 title.innerHTML = place.name;
 
 let list = document.getElementsByClassName("stats")[0];
+let blurb = document.getElementsByClassName("blurb")[0];
 let a = document.createElement("a");
 let linkText = document.createTextNode("Directions");
 a.appendChild(linkText);
-
-a.href = "https://www.google.com/";
-// list.appendChild(a);
+a.target = "_blank";
+a.href = `https://www.google.com/maps/dir/?api=1&destination=${place.coords}&travelmode=bicycling`;
+blurb.appendChild(a);
 let listItems = list.children;
 listItems[0].innerHTML = "Name:  " + place.name;
 listItems[1].innerHTML = "Address:  " + place.address;
