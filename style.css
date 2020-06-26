@@ -56,22 +56,16 @@ body {
   border-top-color: rgba(0, 0, 0, 0.6) !important;
 }
 
-.behind {
-  margin-top: -63%;
-  font-size: 25px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  color: ivory;
-  position: relative;
-  z-index: -18;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 180%;
-  margin-left: -13%;
+#progressBar {
+  width: 0%;
+  color: black;
+  border: solid black 2px;
+  height: 20px;
+  background-color: red;
+  text-align: center;
+  transition: width 0.7s;
 }
 
-.stats {
-  margin-left: 62%;
-  list-style: none;
-}
 .slideshow-container {
   max-width: 59%;
   position: relative;
@@ -150,6 +144,23 @@ body {
 .mySlides {
   width: 100%;
   display: none;
+}
+
+.behind {
+  margin-top: -63%;
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: ivory;
+  position: relative;
+  z-index: -18;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 180%;
+  margin-left: -13%;
+}
+
+.stats {
+  margin-left: 62%;
+  list-style: none;
 }
 .blurb {
   background-color: white;
