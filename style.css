@@ -172,3 +172,11 @@ body {
   border: solid black;
   padding: 7px;
 }
+#timeBar {
+  width: 0%;
+  color: black;
+  border: solid black 2px;
+  height: 20px;
+  background-color: red;
+  text-align: center;
+}

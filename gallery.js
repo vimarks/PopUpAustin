@@ -14,7 +14,6 @@ progressBar.style.width = barWidth + "%";
 progressBar.innerHTML = barWidth + "%";
 
 function update() {
-  console.log("update");
   let myProgress = localStorage.getItem(`progress ${place.name}`);
   if (myProgress) barWidth = parseInt(myProgress);
   barWidth++;
